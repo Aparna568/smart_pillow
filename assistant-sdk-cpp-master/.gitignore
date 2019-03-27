@@ -1,0 +1,14 @@
+grpc/
+googleapis/
+src/assistant/*.o
+# Do not commit private credentials
+client_secret_*.json
+client_secret.json
+credentials.json
+# Do not commit binaries
+googleapis.ar
+run_assistant_audio
+run_assistant_file
+run_assistant_text
+# Generated files
+src/embedded_assistant*
